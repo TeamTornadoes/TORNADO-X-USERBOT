@@ -1,4 +1,4 @@
 echo """
-    FIREBOT
+    tornado-x-BOT
 """
-python3 -m firebot
+python3 -m tornado-x-bot
