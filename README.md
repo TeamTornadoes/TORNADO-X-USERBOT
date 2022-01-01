@@ -1,7 +1,7 @@
 <p align="center">
    
-   <a href="https://github.com/TeamEviral/Fire-X">
-      <img src="https://telegra.ph/file/4fd8dcd5319be4e025022.jpg" alt="firex", height="300px",width="300px">
+   <a href="https://github.com/TeamTornadoes/TORNADO-X-USERBOT">
+      <img src="https://telegra.ph/file/3e676ba0012b98d0a0c8b.jpg" alt="firex", height="300px",width="300px">
    </a>
    <br>
    <b>Fire-X UserBot</b><br>
@@ -9,7 +9,7 @@
 </p>
  
    
-# [Fire-X](https://t.me/FireXUserBot) userbot
+# [TORNADO-X](https://t.me/FireXUserBot) userbot
 
 The Most Powerful Telegram Userbot.
 This Userbot is Safe to use in Your Telegram Account.
