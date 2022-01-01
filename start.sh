@@ -1,4 +1,4 @@
 echo """
-    tornado-x-BOT
+    Tornado-X-BOT
 """
 python3 -m tornado-x-bot
