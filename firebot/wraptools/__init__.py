@@ -18,8 +18,8 @@ import re
 from telethon import events
 
 from var import Var
-from firebot import bot
-from firebot.Configs import Config
+from TORNADO-X-bot import bot
+from TORNADO-X-bot.Configs import Config
 
 
 def ignore_fwd():
