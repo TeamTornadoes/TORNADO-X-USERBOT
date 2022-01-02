@@ -4,23 +4,18 @@
       <img src="https://telegra.ph/file/3e676ba0012b98d0a0c8b.jpg" alt="firex", height="300px",width="300px">
    </a>
    <br>
-   <b>Fire-X UserBot</b><br>
-   <i>The Awaited Bot</i>
+   <b>TORNADO-X UserBot</b><br>
+   <i>The Powerful Bot</i>
 </p>
  
    
-# [TORNADO-X](https://t.me/FireXUserBot) userbot
+# [TORNADO-X](https://t.me/@TORNADO_UB_SUPPORT) userbot
 
 The Most Powerful Telegram Userbot.
 This Userbot is Safe to use in Your Telegram Account.
 It is not like the other bots which are being Suspended by Heroku. Hence, it can be deployed to Heroku.
 
-
-## ᑈֆօƈɨǟʟ ՏԵɑԵմՏ օƒ ɮօԵ ᐵ 
-
-<p align="left"><a href="https://github.com/TeamEviral/Fire-X/network/members"><img src="https://img.shields.io/github/forks/TeamEviral/Fire-X?label=Forks&logoColor=purple&style=social"></a><p align="left"><a href="https://github.com/TeamEviral/Fire-X/stargazers"><img src="https://img.shields.io/github/stars/TeamEviral/Fire-X?logoColor=red&style=social"></a><p align="left"><a href="https://github.com/TeamEviral/Fire-X"><img src="https://img.shields.io/github/last-commit/TeamEviral/Fire-X?logoColor=brown&style=plastic"></a>
-
-# How to Deploy Fire-X Userbot?
+# How to Deploy Tornado-X Userbot?
 Tutorial Coming soon
    
 ##### Deploy
@@ -54,9 +49,9 @@ STRING_SESSION [+] - STRING SESSION
 ```
 # SUPPORT 
 
-<a href="https://telegram.me/FIRE_X_CHANNEL" target="_blank"><img src="https://img.shields.io/badge/Join-Channel-yellow.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://telegram.me/TORNADO_UB_SUPPORT" target="_blank"><img src="https://img.shields.io/badge/Join-Channel-yellow.svg?style=for-the-badge&logo=Telegram"></a>
 
-<a href="https://telegram.me/FIREXuserbot" target="_blank"><img src="https://img.shields.io/badge/Join-Support%20Group-red.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://telegram.me/https://t.me/TORNADO_USERBOT_OFFICIAL" target="_blank"><img src="https://img.shields.io/badge/Join-Support%20Group-red.svg?style=for-the-badge&logo=Telegram"></a>
 
 
 #####  Credits 🌹
