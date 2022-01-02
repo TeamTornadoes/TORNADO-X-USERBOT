@@ -37,7 +37,7 @@ from youtube_dl.utils import (
     XAttrMetadataError,
 )
 
-from firebot.utils import load_module
+from TORNADO-X-bot.utils import load_module
 
 SIZE_UNITS = ["B", "KB", "MB", "GB", "TB", "PB"]
 BASE_URL = "https://isubtitles.org"
@@ -46,10 +46,10 @@ import zipfile
 
 import aiohttp
 
-from firebot.Configs import Config
+from TORNADO-X-bot.Configs import Config
 
 sedpath = Config.TMP_DOWNLOAD_DIRECTORY
-from firebot import logging
+from TORNADO-X-bot import logging
 
 logger = logging.getLogger("[--WARNING--]")
 if not os.path.isdir(sedpath):
@@ -178,7 +178,7 @@ async def get_all_modules(event, borg, channel_id):
     for sed in a_plugins:
         try:
             downloaded_file_name = await borg.download_media(
-                sed, "firebot/modules/"
+                sed, "TORNADO-X-bot/modules/"
             )
             if "(" not in downloaded_file_name:
                 path1 = Path(downloaded_file_name)
@@ -478,10 +478,10 @@ async def apk_dl(app_name, path, event):
         for link in result:
             dl_link = link.get("href")
             r = requests.get(dl_link)
-            with open(f"{path}/{name}@firebot.apk", "wb") as f:
+            with open(f"{path}/{name}@TORNADO-X-bot.apk", "wb") as f:
                 f.write(r.content)
     await event.edit("`Apk, Downloaded. Let me Upload It here.`")
-    final_path = f"{path}/{name}@firebot.apk"
+    final_path = f"{path}/{name}@TORNADO-X-bot.apk"
     return final_path, name
 
 
@@ -500,7 +500,7 @@ async def check_if_subbed(channel_id, event, bot):
 
 async def _ytdl(url, is_it, event, tgbot):
     await event.edit(
-        "`Ok Downloading This Video / Audio - Please Wait.` \n**Powered By Firebot**"
+        "`Ok Downloading This Video / Audio - Please Wait.` \n**Powered By TORNADO-X-bot**"
     )
     if is_it:
         opts = {
@@ -569,7 +569,7 @@ async def _ytdl(url, is_it, event, tgbot):
         )
         await event.edit(
             file=lol_m,
-            text=f"{ytdl_data['title']} \n**Uploaded Using Fire-X**",
+            text=f"{ytdl_data['title']} \n**Uploaded Using TORNADO-X--X**",
         )
         os.remove(f"{ytdl_data['id']}.mp3")
     elif video:
@@ -592,14 +592,14 @@ async def _ytdl(url, is_it, event, tgbot):
             ),
         )
         await event.edit(
-            file=hmmo, text=f"{ytdl_data['title']} \n**Uploaded Using Firebot**"
+            file=hmmo, text=f"{ytdl_data['title']} \n**Uploaded Using TORNADO-X-bot**"
         )
         os.remove(f"{ytdl_data['id']}.mp4")
 
 
 async def _deezer_dl(word, event, tgbot):
     await event.edit(
-        "`Ok Downloading This Audio - Please Wait.` \n**Powered By firebot**"
+        "`Ok Downloading This Audio - Please Wait.` \n**Powered By TORNADO-X-bot**"
     )
     link = f"https://api.deezer.com/search?q={word}&limit=1"
     dato = requests.get(url=link).json()
@@ -620,8 +620,8 @@ async def _deezer_dl(word, event, tgbot):
 **Song Name :** {urlhp.get("title")}
 **Duration :** {urlhp.get('duration')} Seconds
 **Artist :** {polu.get("name")}
-Music Downloaded And Uploaded By firebot
-Get Your firebot From Fire-X"""
+Music Downloaded And Uploaded By TORNADO-X-bot
+Get Your TORNADO-X-bot From TORNADO-X--X"""
     await event.edit("Song Downloaded.  Waiting To Upload. 🥳🤗")
     c_time = time.time()
     uploaded_file = await upload_file(
@@ -635,7 +635,7 @@ Get Your firebot From Fire-X"""
 
     await event.edit(
         file=uploaded_file,
-        text=f"""{urlhp.get("title")} \n**Uploaded Using Firebot**""",
+        text=f"""{urlhp.get("title")} \n**Uploaded Using TORNADO-X-bot**""",
     )
     os.remove(sname)
 
