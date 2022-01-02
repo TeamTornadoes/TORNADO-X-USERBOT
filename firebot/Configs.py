@@ -33,7 +33,7 @@ if ENV:
             "HASH_TO_TORRENT_API", "https://example.com/torrent/{}"
         )
         # This is required for the @telegraph functionality.
-        TELEGRAPH_SHORT_NAME = os.environ.get("TELEGRAPH_SHORT_NAME", "firebot")
+        TELEGRAPH_SHORT_NAME = os.environ.get("TELEGRAPH_SHORT_NAME", "TORNADO-X-bot")
         # Get a Free API Key from OCR.Space
         OCR_SPACE_API_KEY = os.environ.get("OCR_SPACE_API_KEY", None)
         DEEP_API_KEY = os.environ.get("DEEP_API_KEY", None)
@@ -163,7 +163,7 @@ if ENV:
         GPLINKS_API_KEY = os.environ.get("GPLINKS_API_KEY", None)
         OPEN_LOAD_KEY = os.environ.get("OPEN_LOAD_KEY", None)
         UPSTREAM_REPO = os.environ.get(
-            "UPSTREAM_REPO", "https://github.com/TeamEviral/Fire-X"
+            "UPSTREAM_REPO", "https://github.com/TeamEviral/TORNADO-X--X"
         )
         ALIVE_IMAGE = os.environ.get("ALIVE_IMAGE", "https://telegra.ph/file/4fd8dcd5319be4e025022.jpg")
         ASSISTANT_START_PIC = os.environ.get(
