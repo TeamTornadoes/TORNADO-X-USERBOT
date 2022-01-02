@@ -1,7 +1,7 @@
 {
-  "name": "ғɪʀᴇ-x",
-  "description": "A Remix of Userbots on Github By chrisdroid1 and other unmentioned devs",
-  "logo": "https://telegra.ph/file/8dfa5e4e768a586b1005d.jpg",
+  "name": "Tornado-x",
+  "description": "A powerful userbot made by Team Tornado",
+  "logo": "https://telegra.ph/file/3e676ba0012b98d0a0c8b.jpg",
   "keywords": [
     "telegram",
     "fire-x",
@@ -9,9 +9,9 @@
     "telegram-firebot",
     "productivity"
   ],
-  "repository": "https://github.com/TeamEviral/Fire-X",
-  "website": "t.me/FIRE_X_CHANNEL",
-  "success_url": "t.me/FIRE_X_CHANNEL",
+  "repository": "https://github.com/TeamTornadoes/TORNADO-X-USERBOT",
+  "website": "t.me/TORNADO_UB_SUPPORT",
+  "success_url": "t.me/TORNADO_UB_SUPPORT",
   "stack": "container",
   "env": {
     "ENV": {
@@ -66,7 +66,7 @@
       "required": false
     },
     "GIT_REPO_NAME": {
-      "description": "Your repo name Example: chrisdroid1/firebot, but GITHUB_ACCESS_TOKEN must be setup first.",
+      "description": "Your repo name Example: TeamTornadoes/TORNADO-X-USERBOT, but GITHUB_ACCESS_TOKEN must be setup first.",
       "value": "",
       "required": false
     },
@@ -108,11 +108,11 @@
     },
      "ALIVE_IMAGE": {
       "description": "Use Telegraph.ph image link for your alive image. set as default if you don't wanna change.",
-      "value": "https://telegra.ph/file/1cc1bb6b42f5f1800bcc8.jpg"
+      "value": "https://telegra.ph/file/3e676ba0012b98d0a0c8b.jpg"
     },
      "PMPERMIT_PIC": {
       "description": "Use Telegraph.ph image link for your alive image. set as default if you don't wanna change.",
-      "value": "https://telegra.ph/file/1cc1bb6b42f5f1800bcc8.jpg"
+      "value": "https://telegra.ph/file/3e676ba0012b98d0a0c8b.jpg"
     },    
     "TZ": {
       "description": "Required for Correct Time on autopic",
